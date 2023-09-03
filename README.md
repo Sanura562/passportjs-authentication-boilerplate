@@ -34,14 +34,14 @@ Before you begin, make sure you have the following installed on your system:
    cd username-password-auth-boilerplate
 
 1. Install the required npm packages:
-
-   ```bash
-   git clone https://github.com/randilt/username-password-auth-boilerplate.git
-
-1. Clone the repository to your local machine:
+   
 
    ```bash
    npm install
+
+
+ 
+  
 
 
 
@@ -53,7 +53,7 @@ Open the config/database.js file.
 Replace the MongoDB connection string with your own. You can use a local MongoDB instance or a cloud-based MongoDB service like MongoDB Atlas.
 Update App Configuration (Optional):
 
-You can customize the application's configuration in the app.js file, such as the session settings or authentication strategies. After updating the database connetion strings in both app.js and config/database.js start the application by running this command in the terminal
+You can customise the application's configuration in the app.js file, such as the session settings or authentication strategies. After updating the database connetion strings in both app.js and config/database.js start the application by running this command in the terminal
     
       node app.js
 
